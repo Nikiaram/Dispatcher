@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispatcher", "Dispatcher\Dispatcher.csproj", "{90C837FB-F655-42D3-8807-901FAAFFC52D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dispatcher", "Dispatcher\Dispatcher.csproj", "{90C837FB-F655-42D3-8807-901FAAFFC52D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Node", "Node\Node.csproj", "{E1B18FD7-CB87-4DBA-987F-8FA2C9D0D81F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68BF4217-4969-42BC-B311-E5C4FB62FC44}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Desktop\README.md = ..\..\..\OneDrive\Desktop\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{90C837FB-F655-42D3-8807-901FAAFFC52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C837FB-F655-42D3-8807-901FAAFFC52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C837FB-F655-42D3-8807-901FAAFFC52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B18FD7-CB87-4DBA-987F-8FA2C9D0D81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B18FD7-CB87-4DBA-987F-8FA2C9D0D81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B18FD7-CB87-4DBA-987F-8FA2C9D0D81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B18FD7-CB87-4DBA-987F-8FA2C9D0D81F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
